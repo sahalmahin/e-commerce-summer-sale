@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <title>Summer Sale</title>
+</head>
+
+<body>
+    <!-- header-section-start -->
+    <!-- <header>
+        <div class="flex items-center justify-center w-[full] h-[775px] bg-orange-100 gap-20">
+            <div class="text-center">
+                <h3 class="text-3xl font-medium">---SALE FEVER---</h3>
+                <p class="text-5xl pt-12 pb-12 font-bold">Purchase TK 200 or <br> above get <span
+                        class="font-bold text-5xl text-pink-600">20% off</span></p>
+                <div class="flex items-center justify-center text-2xl font-medium gap-5">
+                    <h4 class="">Use Promo Code</h4>
+                    <button class="rounded-lg bg-pink-600 text-white w-[150px] h-[50px]">SELL200</button>
+                </div>
+            </div>
+            <div class="w-[600px] h-[600px]">
+                <img src="./images/Summer 1.png" alt="">
+            </div>
+        </div>
+    </header> -->
+    <!-- header-section-end -->
+
+    <!-- main-section-start -->
+    <div class="flex mt-40">
+        <div class="w-[70%] ml-20 mb-20">
+            <h1 class="text-5xl font-bold my-8">Kitchenware</h1>
+            <div class="grid grid-cols-3">
+
+                <div onclick="kitchenWareOne()" class="card w-[250px] h-[300px] bg-base-100 shadow-2xl">
+                    <figure class="m-3 [200px] h-[150px] bg-orange-100">
+                        <img src="./images/prod1.png" alt="Shoes" class="rounded-xl w-[100px] h-[100px]" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <div class="flex items-center justify-center gap-1 w-[20px] h-[20px]">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                        </div>
+                        <p id="item-one" class="font-bold">K. Accessories</p>
+                        <div class="card-actions">
+                            <p id="item-one-price" class="font-normal text-slate-500">39.00 TK</p>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="kitchenWareTwo()" class="card w-[250px] h-[300px] bg-base-100 shadow-2xl">
+                    <figure class="m-3 [200px] h-[150px] bg-orange-100">
+                        <img src="./images/prod2.png" alt="Shoes" class="rounded-xl w-[100px] h-[100px]" />
+                    </figure>
+                    <div class=" card-body items-center text-center">
+                        <div class="flex items-center justify-center gap-1 w-[20px] h-[20px]">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                        </div>
+                        <p id="item-two" class="font-bold">K. Accessories</p>
+                        <div class="card-actions">
+                            <p id="item-two-price" class="font-normal text-slate-500">25.00 TK</p>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="kitchenWareThree()" class="card w-[250px] h-[300px] bg-base-100 shadow-2xl">
+                    <figure class="m-3 [200px] h-[150px] bg-orange-100">
+                        <img src="./images/prod3.png" alt="Shoes" class="rounded-xl w-[100px] h-[100px]"" />
+                </figure>
+                <div class=" card-body items-center text-center">
+                        <div class="flex items-center justify-center gap-1 w-[20px] h-[20px]">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                            <img src="./images/star.png" alt="">
+                        </div>
+                        <p id="item-three" class="font-bold">K. Accessories</p>
+                        <div class="card-actions">
+                            <p id="item-three-price" class="font-normal text-slate-500">79.00 TK</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-5xl font-bold my-8">Sportswear</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div onclick="kitchenWareFour()" class="card w-[250px] h-[300px] bg-base-100 shadow-2xl">
+                <figure class="m-3 [200px] h-[150px] bg-orange-100">
+                    <img src="./images/prod4.png" alt="Shoes" class="rounded-xl w-[100px] h-[100px]"" />
+                </figure>
+                <div class=" card-body items-center text-center">
+                    <div class="flex items-center justify-center gap-1 w-[20px] h-[20px]">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                        <img src="./images/star.png" alt="">
+                    </div>
+                    <p id="item-four" class="font-bold">Sports Back Cap</p>
+                    <div class="card-actions">
+                        <p id="item-four-price" class="font-normal text-slate-500">39.00 TK</p>
+                    </div>
+            </div>
+        </div>
+        <div onclick="kitchenWareFive()" class="card w-[250px] h-[300px] bg-base-100 shadow-2xl">
+            <figure class="m-3 [200px] h-[150px] bg-orange-100">
+                <img src="./images/prod5.png" alt="Shoes" class="rounded-xl w-[100px] h-[100px]"" />
+                </figure>
+                <div class=" card-body items-center text-center">
+                <div class="flex items-center justify-center gap-1 w-[20px] h-[20px]">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                </div>
+                <p id="item-five" class="font-bold">Full Jersey Set</p>
+                <div class="card-actions">
+                    <p id="item-five-price" class="font-normal text-slate-500">69.00 TK</p>
+                </div>
+        </div>
+    </div>
+    <div onclick="kitchenWareSix()" class="card w-[250px] h-[300px] bg-base-100 shadow-2xl">
+        <figure class="m-3 [200px] h-[150px] bg-orange-100">
+            <img src="./images/prod6.png" alt="Shoes" class="rounded-xl w-[100px] h-[100px]" />
+        </figure>
+        <div class=" card-body items-center text-center">
+            <div class="flex items-center justify-center gap-1 w-[20px] h-[20px]">
+                <img src="./images/star.png" alt="">
+                <img src="./images/star.png" alt="">
+                <img src="./images/star.png" alt="">
+                <img src="./images/star.png" alt="">
+                <img src="./images/star.png" alt="">
+            </div>
+            <p id="item-six" class="font-bold">Sports cates</p>
+            <div class="card-actions">
+                <p id="item-six-price" class="font-normal text-slate-500">139.00 TK</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="mt-[120px]">
+        <div class="w-[350px] h-[150px] bg-orange-100 rounded-lg">
+            <div class="pt-6 pl-7">
+                <p class="pb-3 font-bold">Have a coupon?</p>
+                <div class="form-control">
+                    <label class="input-group">
+                        <input id="code" type="text" placeholder="Coupon Code" class="input input-bordered" />
+                        <button id="apply-btn" class="font-semibold bg-pink-600 text-white px-2" disabled>Apply</button>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="w-[350px] h-[540px] bg-orange-100 rounded-lg mt-4 pl-7 pt-6 font-bold">
+            <div id="items-entry"></div>
+            <div class="border-y-2 border-gray-500 mt-4 w-[90%]">
+                <p>Total Price : <span id="total-price"></span></p>
+                <p>Discount :</p>
+                <p>Total :</p>
+            </div>
+            <button id="apply-btn" class="font-semibold bg-pink-600 text-white px-12 py-3 rounded mx-12 mt-[400px]" disabled>Make Purchase</button>
+        </div>
+    </div>
+    </div>
+    <!-- main-section-end -->
+    <script src="./js/summer.js"></script>
+    <script src="./js/coupon.js"></script>
+</body>
+
+</html>
